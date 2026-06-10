@@ -23,14 +23,8 @@ const Footer = () => {
             </p>
           </div>
           <div className="flex items-center gap-6">
-            <Link href="#">
-              <Icon icon="ph:x-logo-bold" width={24} height={24} className="text-white hover:text-primary duration-300" />
-            </Link>
-            <Link href="#">
-              <Icon icon="ph:facebook-logo-bold" width={24} height={24} className="text-white hover:text-primary duration-300" />
-            </Link>
-            <Link href="#">
-              <Icon icon="ph:instagram-logo-bold" width={24} height={24} className="text-white hover:text-primary duration-300" />
+            <Link href="https://www.linkedin.com/company/bangalore-realtors/" target="_blank" rel="noopener noreferrer">
+              <Icon icon="ph:linkedin-logo-bold" width={24} height={24} className="text-white hover:text-primary duration-300" />
             </Link>
           </div>
         </div>
