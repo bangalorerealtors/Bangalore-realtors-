@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Bangalore Realtors - Premium Real Estate in Bangalore',
     description: 'Discover premium residential and commercial properties in Bangalore.',
-    images: ['https://bangalorerealtors.com/images/header/logo-dark.png'],
+    images: ['https://bangalorerealtors.com/images/header/logo-og.png'],
   },
 }
 
