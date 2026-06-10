@@ -10,6 +10,27 @@ const font = Bricolage_Grotesque({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Bangalore Realtors - Premium Real Estate in Bangalore',
   description: 'Discover premium residential and commercial properties in Bangalore.',
+  openGraph: {
+    title: 'Bangalore Realtors - Premium Real Estate in Bangalore',
+    description: 'Discover premium residential and commercial properties in Bangalore.',
+    url: 'https://bangalorerealtors.com',
+    siteName: 'Bangalore Realtors',
+    images: [
+      {
+        url: 'https://bangalorerealtors.com/images/og-image.jpg',
+        width: 1200,
+        height: 627,
+        alt: 'Bangalore Realtors',
+      },
+    ],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Bangalore Realtors - Premium Real Estate in Bangalore',
+    description: 'Discover premium residential and commercial properties in Bangalore.',
+    images: ['https://bangalorerealtors.com/images/og-image.jpg'],
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
